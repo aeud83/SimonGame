@@ -47,6 +47,10 @@ body{
   visibility: hidden;
 }
 
+.tecla{
+  color: #99FF33;
+}
+
 /* Clase que muestra al usuario el cuadro a seleccionar */
 .btnSeleccionado {
   box-shadow: 0 3px 4px 0 #DBEDF3;
