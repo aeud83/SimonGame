@@ -92,3 +92,17 @@ $(".btn").on("click", function() {
     }
   }
 });
+
+$("#Tecla").on("click", function() {
+  if (Iniciar === false){
+    $("#MCulto").css("visibility", "hidden");
+    Inicio();
+  }
+});
+
+$("#Tecla2").on("click", function() {
+  if (Iniciar === false){
+    $("#MCulto").css("visibility", "hidden");
+    Inicio();
+  }
+});
