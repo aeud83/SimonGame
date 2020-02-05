@@ -1,0 +1,58 @@
+h1{
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  color: #ffff;
+  margin-top: 0;
+}
+
+body{
+  background-color: #795548;
+  padding-top: 2rem;
+  text-align: center; /*Alinea todo el contenido incluyendo texto y botones */
+}
+
+.btn {
+  outline: none;
+  border: 10px solid #000000;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 10%;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 50px;
+  background-color: white;
+}
+
+#Verde{
+  background-image: url("Images/Verde.png");
+}
+
+#Rojo{
+  background-image: url("Images/Rojo.png");
+}
+
+#Amarillo{
+  background-image: url("Images/Amarillo.png");
+}
+
+#Azul{
+  background-image: url("Images/Azul.png");
+}
+
+#MCulto{
+  font-family: 'Bangers', cursive;
+  visibility: hidden;
+}
+
+/* Clase que muestra al usuario el cuadro a seleccionar */
+.btnSeleccionado {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.1;
+}
+.InicioDeNivel{
+  font-family: 'Indie Flower', cursive;
+  font-size: 5rem;
+}
